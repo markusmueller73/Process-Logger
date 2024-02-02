@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 6.04 LTS (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="1" name="Process Time Logger"/>
+    <comment>Small "invisible" program to log a process running time.</comment>
+  </section>
+  <section name="data">
+    <explorer view="src\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2024-01-24 09:01" user="Markus Müller" host="WIN11-DESKTOP"/>
+  </section>
+  <section name="files">
+    <file name="src\main.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="1" panelstate="++"/>
+      <fingerprint md5="89239187fef62b32fb34ddc0a64a7286"/>
+    </file>
+    <file name="src\header.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="2" panelstate="++"/>
+      <fingerprint md5="f3082cdccb3c22060f13a31aea256222"/>
+    </file>
+    <file name="src\logging.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="3" panelstate="++"/>
+      <fingerprint md5="c400398cb0e74bead5b7bbc67f4dee11"/>
+    </file>
+    <file name="src\select_exes.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="4" panelstate="++"/>
+      <fingerprint md5="2058d3d95b8824c41e527c07a33de525"/>
+    </file>
+    <file name="src\report_func.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="5" panelstate="++"/>
+      <fingerprint md5="1d6161d82864f95ce6c4dac69c5ce737"/>
+    </file>
+    <file name="src\settings.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="6" panelstate="++"/>
+      <fingerprint md5="96104efc74b00154fe9db378d6b1f9fc"/>
+    </file>
+    <file name="src\monitoring.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="7" panelstate="++"/>
+      <fingerprint md5="255440f92c8013cd5c24799cfb91e9ea"/>
+    </file>
+    <file name="src\statsdb.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="8" panelstate="++"/>
+      <fingerprint md5="c1b8b38d9cf82fbce7cab026b0bc3dd0"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="src\main.pb"/>
+      <outputfile value="build\proc_time_log.exe"/>
+      <compiler version="PureBasic 6.04 LTS (Windows - x64)"/>
+      <executable value="build\proc_time_log.exe"/>
+      <options thread="1" user="1" debug="1" optimizer="1"/>
+      <purifier enable="1"/>
+      <debugger custom="1" type="ide"/>
+      <compilecount enable="1" value="50"/>
+      <buildcount enable="1" value="10"/>
+      <execonstant enable="1"/>
+    </target>
+  </section>
+</project>
