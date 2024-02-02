@@ -2,16 +2,17 @@
 Small and invisible tool to monitor the duration of running processes.
 
 # Usage:
-<program_name> [--parameter]
+    <program_name> [--parameter]
 
 Parameter:
-  --config    write a new fresh config in the user directory
+
+    --config    write a new fresh config in the user directory
   
-  --select    show a small dialog to select the processes (executeable files) to monitor
+    --select    show a small dialog to select the processes (executeable files) to monitor
   
-  --report    create a simple HTML report in the users TEMP directory
+    --report    create a simple HTML report in the users TEMP directory
   
-  --help      show this help
+    --help      show this help
 
   If you start the app without any parameters, it opens an invisible window and monitor the processes.
   You can close it in the windows task manager. 
@@ -19,7 +20,7 @@ Parameter:
 # Versions
 * v 0.4
   - release on github
-  - added in debug mode as taskbar icon to close the program
+  - added in debug mode a taskbar icon to close the program
  
 * v 0.3
   - rewrite of data storage
